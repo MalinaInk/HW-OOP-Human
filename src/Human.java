@@ -2,9 +2,11 @@ public class Human {
    int yearOfBirth;
    String name;
    String town;
-
+   String job;
 
    void say() {
-      System.out.println("Привет! Меня зовут " + name + " Я из города " + town + " Я родился в " + (2022-yearOfBirth) + " году. Будем знакомы!");
+      System.out.println("Привет! Меня зовут " + name +
+              ". Я из города " + town + ". Я родился в " + (2022-yearOfBirth) +
+              " году. Я работаю на должности " + job + ". Будем знакомы!");
    }
 }
