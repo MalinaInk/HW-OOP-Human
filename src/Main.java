@@ -1,31 +1,15 @@
 public class Main {
     public static void main(String[] args) {
-        Human maxim = new Human();
-        maxim.town = "Минск";
-        maxim.name = "Максим";
-        maxim.yearOfBirth = 35;
-        maxim.job = "бренд-менеджер";
+        Human maxim = new Human("Максим","Минск","бренд-менеджер", 35);
         maxim.say();
 
-        Human ania = new Human();
-        ania.name = "Аня";
-        ania.town = "Москва";
-        ania.yearOfBirth = 29;
-        ania.job = "методист образовательных программ";
+        Human ania = new Human("Аня", "Москва", "методист образовательных программ", 29);
         ania.say();
 
-        Human katia = new Human();
-        katia.name = "Катя";
-        katia.town = "Калининград";
-        katia.yearOfBirth = 28;
-        katia.job = "продакт-менеджер";
+        Human katia = new Human("Катя","Калининград","продакт-менеджер", 28);
         katia.say();
 
-        Human artiom = new Human();
-        artiom.name = "Артем";
-        artiom.town = "Москва";
-        artiom.yearOfBirth = 27;
-        artiom.job = "директор по развитию бизнеса";
+        Human artiom = new Human("Артем","Москва","директор по развитию бизнеса", 27);
         artiom.say();
     }
 }
